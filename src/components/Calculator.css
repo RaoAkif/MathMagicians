@@ -33,7 +33,7 @@ button:hover {
 
 .operator {
   color: black;
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
 
 .operator:hover {
@@ -42,12 +42,12 @@ button:hover {
 }
 
 .equal-sign {
-  background-color: #F5913E;
+  background-color: #f5913e;
   color: black;
 }
 
 .equal-sign:hover {
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
 
 .calculator-keys {
