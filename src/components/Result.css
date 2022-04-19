@@ -1,0 +1,9 @@
+.result-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  height: 40px;
+  background-color: #858694;
+  color: white;
+}
