@@ -1,5 +1,7 @@
 import React from 'react';
 import './Calculator.css';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 export default class Calculator extends React.PureComponent {
   render() {
@@ -10,9 +12,9 @@ export default class Calculator extends React.PureComponent {
 
         <div className="calculator-keys">
 
-          <button type="button" className="all-clear" value="all-clear">AC</button>
-          <button type="button" className="all-clear" value="+/-">+/-</button>
-          <button type="button" className="all-clear" value="/100">%</button>
+          <button type="button" value="all-clear">AC</button>
+          <button type="button" value="+/-">+/-</button>
+          <button type="button" value="/100">%</button>
           <button type="button" className="operator" value="/">&divide;</button>
 
           <button type="button" value="7">7</button>
