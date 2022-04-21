@@ -1,97 +1,99 @@
-export const buttonsArray = [ 
+const buttonsArray = [
   {
     symbol: 'AC',
     value: 'AC',
-    className: ''
+    className: '',
   },
   {
     symbol: '+/-',
     value: '+/-',
-    className: ''
+    className: '',
   },
   {
     symbol: '%',
     value: '%',
-    className: ''
+    className: '',
   },
   {
     symbol: '÷',
     value: '/',
-    className: 'operator'
+    className: 'operator',
   },
   {
     symbol: '7',
     value: '7',
-    className: ''
+    className: '',
   },
   {
     symbol: '8',
     value: '8',
-    className: ''
+    className: '',
   },
   {
     symbol: '9',
     value: '9',
-    className: ''
+    className: '',
   },
   {
     symbol: 'x',
     value: '*',
-    className: 'operator'
+    className: 'operator',
   },
   {
     symbol: '4',
     value: '4',
-    className: ''
+    className: '',
   },
   {
     symbol: '5',
     value: '5',
-    className: ''
+    className: '',
   },
   {
     symbol: '6',
     value: '6',
-    className: ''
+    className: '',
   },
   {
     symbol: '-',
     value: '-',
-    className: 'operator'
+    className: 'operator',
   },
   {
     symbol: '1',
     value: '1',
-    className: ''
+    className: '',
   },
   {
     symbol: '2',
     value: '2',
-    className: ''
+    className: '',
   },
   {
     symbol: '3',
     value: '3',
-    className: ''
+    className: '',
   },
   {
     symbol: '+',
     value: '+',
-    className: 'operator'
+    className: 'operator',
   },
   {
     symbol: '0',
     value: '0',
-    className: 'zero'
+    className: 'zero',
   },
   {
     symbol: '.',
     value: '.',
-    className: 'decimal'
+    className: 'decimal',
   },
   {
     symbol: '=',
     value: '=',
-    className: 'equal-sign'
+    className: 'equal-sign',
   },
-]
+];
+
+export default buttonsArray;
