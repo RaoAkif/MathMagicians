@@ -16,7 +16,7 @@ const buttonsArray = [
   },
   {
     symbol: '÷',
-    value: '/',
+    value: '÷',
     className: 'operator',
   },
   {
@@ -36,7 +36,7 @@ const buttonsArray = [
   },
   {
     symbol: 'x',
-    value: '*',
+    value: 'x',
     className: 'operator',
   },
   {
