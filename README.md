@@ -4,7 +4,8 @@
 
 
 ## Get Started
-- [Live Site](http://raoakif.github.io/MathMagicians)
+- [Netlify Live](https://mathmagicians-raoakif.netlify.app/)
+- [Heroku Live](https://mathmagicians-raoakif.herokuapp.com/)
 
 
 # Getting Started with Create React App
@@ -21,18 +22,18 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### ```npm test```
-Launches the test runner in the interactive watch mode.\
+- ```npm test```
 
 ### ```npm run build```
-Builds the app for production to the `build` folder.\
+- ```npm run build```
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/RaoAkif)
-- Twitter: [@twitterhandle](https://twitter.com/RaoAkif)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/RaoAkif)
+- GitHub: [@RaoAkif](https://github.com/RaoAkif)
+- Twitter: [@RaoAkif](https://twitter.com/RaoAkif)
+- LinkedIn: [RaoAkif](https://linkedin.com/in/RaoAkif)
 
 ## 🤝 Contributing
 
@@ -53,5 +54,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
