@@ -1,33 +1,29 @@
 # Math Magicians
 
-> This is a simple Math Calculator.
+> This is a simple Math Calculator, that uses pre-build logic for calculation and operations, and then build a calculator with React Framework.
 
 
 ## Get Started
-Click on the green button **Use the Template** and Start working. Happy Coding !!!
-
-
-- [Live Site](http://GITHUB_ID.github.io/...)
-- [Live Demo Link](https://www.loom.com/share/...)
+- [Live Site](http://raoakif.github.io/MathMagicians)
 
 
 # Getting Started with Create React App
 ### Prerequisites
 Node JS
 ### Setup
-`git clone git@github.com:RaoAkif/MathMagicians.git`
+```git clone git@github.com:RaoAkif/MathMagicians.git```
 ### Install
-- `cd MathMagicians`
-- `npm i`
+- ```cd MathMagicians```
+- ```npm i```
 
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm test`
+### ```npm test```
 Launches the test runner in the interactive watch mode.\
 
-### `npm run build`
+### ```npm run build```
 Builds the app for production to the `build` folder.\
 
 ## Authors
