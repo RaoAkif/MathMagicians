@@ -1,7 +1,7 @@
 import calculate from './calculate';
 
 describe('calculate', () => {
-  it('should return the correct result for the AC input', () => {
+  it('should return result for the AC input', () => {
     const result = calculate(
       {
         total: null,
@@ -17,7 +17,7 @@ describe('calculate', () => {
     });
   });
 
-  it('should return the correct result for the input 0', () => {
+  it('should return result for the input 0', () => {
     const result = calculate(
       {
         total: null,
@@ -32,7 +32,7 @@ describe('calculate', () => {
     });
   });
 
-  it('should return the correct result for the input +/-', () => {
+  it('should return result for the input +/-', () => {
     const result = calculate(
       {
         total: null,
@@ -47,7 +47,7 @@ describe('calculate', () => {
       operation: null,
     });
   });
-  it('should return the correct result for the input 1', () => {
+  it('should return result for the input 1', () => {
     const result = calculate(
       {
         total: null,

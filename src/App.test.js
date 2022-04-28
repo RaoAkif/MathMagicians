@@ -10,13 +10,13 @@ describe('App interaction', () => {
     expect(document.body.textContent).toMatch(/Math Magicians/i);
   });
 
-  it('contains the correct link to calculator page', () => {
+  it('contains the correct link', () => {
     render(<App />);
     const navLinkCalculator = document.querySelector('[href="/calculator"]');
     expect(navLinkCalculator.innerHTML).toMatch(/Calculator/i);
   });
 
-  it('displays 1 on calculator display when key 1 is clicked', () => {
+  it('displays the right key pn the screen when clicked', () => {
     render(<Calculator />);
     const key1 = screen.getByText('1');
     const display = document.querySelector('.calculator-screen');
@@ -25,21 +25,21 @@ describe('App interaction', () => {
     expect(display.innerHTML).toBe('1');
   });
 
-  it('Simulate User interaction doing a sum of 8 + 9', () => {
+  it('Simulate User interaction on the keyboard', () => {
     render(<Calculator />);
-    const key8 = screen.getByText('8');
-    const key9 = screen.getByText('9');
+    const key5 = screen.getByText('5');
+    const key7 = screen.getByText('7');
     const keyPlus = screen.getByText('+');
     const keyEqual = screen.getByText('=');
     const display = document.querySelector('.calculator-screen');
-    expect(key8.value).toBe('8');
-    expect(key9.value).toBe('9');
+    expect(key5.value).toBe('5');
+    expect(key7.value).toBe('7');
     expect(keyPlus.value).toBe('+');
-    expect(operate(key8.value, key9.value, keyPlus.value)).toBe('17');
-    fireEvent.click(key8);
+    expect(operate(key5.value, key7.value, keyPlus.value)).toBe('12');
+    fireEvent.click(key5);
     fireEvent.click(keyPlus);
-    fireEvent.click(key9);
+    fireEvent.click(key7);
     fireEvent.click(keyEqual);
-    expect(display.innerHTML).toBe('17');
+    expect(display.innerHTML).toBe('12');
   });
 });
