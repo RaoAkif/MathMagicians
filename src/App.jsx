@@ -7,8 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Calculator from './components/Calculator';
 
-const App = () => {
-  return (
+const App = () => (
     <BrowserRouter>
       <Header />
       <Routes>
@@ -19,6 +18,5 @@ const App = () => {
       <Footer />
     </BrowserRouter>
   );
-};
 
 export default App;
