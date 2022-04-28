@@ -4,7 +4,6 @@
 
 
 ## Get Started
-
 - [Live Site](http://raoakif.github.io/MathMagicians)
 
 
