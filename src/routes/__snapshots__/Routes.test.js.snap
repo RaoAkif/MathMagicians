@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages renders correctly Calculator page renders correctly 1`] = `
+<div>
+  <h2
+    style={
+      Object {
+        "fontSize": "20px",
+        "paddingLeft": "20px",
+        "paddingTop": "60px",
+      }
+    }
+  >
+    Lets do some Math !!!
+  </h2>
+  <div
+    className="calculator"
+  >
+    <p
+      className="calculator-screen"
+    >
+      0
+    </p>
+    <div
+      className="calculator-keys"
+    >
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="AC"
+      >
+        AC
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="+/-"
+      >
+        +/-
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="%"
+      >
+        %
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="÷"
+      >
+        ÷
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="7"
+      >
+        7
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="8"
+      >
+        8
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="9"
+      >
+        9
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="x"
+      >
+        x
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="4"
+      >
+        4
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="5"
+      >
+        5
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="6"
+      >
+        6
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="-"
+      >
+        -
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="1"
+      >
+        1
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="2"
+      >
+        2
+      </button>
+      <button
+        className=""
+        onClick={[Function]}
+        type="button"
+        value="3"
+      >
+        3
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="+"
+      >
+        +
+      </button>
+      <button
+        className="zero"
+        onClick={[Function]}
+        type="button"
+        value="0"
+      >
+        0
+      </button>
+      <button
+        className="decimal"
+        onClick={[Function]}
+        type="button"
+        value="."
+      >
+        .
+      </button>
+      <button
+        className="equal-sign"
+        onClick={[Function]}
+        type="button"
+        value="="
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pages renders correctly Footer renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "lightgrey",
+      "bottom": "0px",
+      "display": "flex",
+      "fontFamily": "Calibri",
+      "fontSize": "12px",
+      "justifyContent": "center",
+      "padding": "5px",
+      "position": "absolute",
+      "textAlign": "center",
+      "width": "100vw",
+    }
+  }
+>
+  Copyright Reserved 2022. Rao Akif
+</div>
+`;
+
+exports[`Pages renders correctly Home page renders correctly 1`] = `
+<main
+  style={
+    Object {
+      "fontFamily": "Calibri",
+      "fontSize": "16px",
+      "marginBottom": "10px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+      "padding": "1rem 0",
+    }
+  }
+>
+  <h2>
+    Welcome to the Home Page
+  </h2>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ullam consectetur voluptate quidem doloremque blanditiis, veritatis neque asperiores aspernatur quos repellat, deserunt autem. Voluptatem quis, atque harum accusamus aperiam eveniet?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ullam consectetur voluptate quidem doloremque blanditiis, veritatis neque asperiores aspernatur quos repellat, deserunt autem. Voluptatem quis, atque harum accusamus aperiam eveniet?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ullam consectetur voluptate quidem doloremque blanditiis, veritatis neque asperiores aspernatur quos repellat, deserunt autem. Voluptatem quis, atque harum accusamus aperiam eveniet?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ullam consectetur voluptate quidem doloremque blanditiis, veritatis neque asperiores aspernatur quos repellat, deserunt autem. Voluptatem quis, atque harum accusamus aperiam eveniet?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ullam consectetur voluptate quidem doloremque blanditiis, veritatis neque asperiores aspernatur quos repellat, deserunt autem.
+  </p>
+</main>
+`;
+
+exports[`Pages renders correctly Quote page renders correctly 1`] = `
+<main
+  style={
+    Object {
+      "fontFamily": "Calibri",
+      "fontSize": "16px",
+      "marginBottom": "10px",
+      "marginLeft": "20px",
+      "marginRight": "20px",
+      "marginTop": "10px",
+      "padding": "1rem 0",
+    }
+  }
+>
+  <h2>
+    Quote
+  </h2>
+  <p>
+    Here is a quote from
+     
+    <span
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Muhammad ibn Musa al-Khwarizmi
+    </span>
+    :
+  </p>
+  <blockquote
+    cite="https://www.azquotes.com/author/44490-Muhammad_ibn_Musa_al_Khwarizmi#:~:text=Muhammad%20ibn%20Musa%20al%2DKhwarizmi%20Quotes&text=When%20I%20consider%20what%20people,may%20be%20divided%20into%20units."
+  >
+    When I consider what people generally want in calculating, I found that it always is a number. I also observed that every number is composed of units, and that any number may be divided into units. Moreover, I found that every number which may be expressed from one to ten, surpasses the preceding by one unit: afterwards the ten is doubled or tripled just as before the units were: thus arise twenty, thirty, etc. until a hundred: then the hundred is doubled and tripled in the same manner as the units and the tens, up to a thousand;… so forth to the utmost limit of numeration.
+  </blockquote>
+</main>
+`;
