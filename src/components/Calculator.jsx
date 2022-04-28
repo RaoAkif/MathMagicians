@@ -3,7 +3,7 @@ import './Calculator.css';
 import calculate from '../logic/calculate';
 import buttonsArray from './buttonsArray';
 
-const Calculator = function () {
+function Calculator() {
   const [state, setState] = useState({});
 
   const handleButtonClick = useCallback((event) => {
@@ -34,6 +34,6 @@ const Calculator = function () {
       </div>
     </div>
   );
-};
+}
 
 export default Calculator;

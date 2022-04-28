@@ -14,12 +14,12 @@ const footerStyle = {
   bottom: '0px',
 };
 
-const Header = function () {
+function Footer() {
   return (
     <div style={footerStyle}>
       Copyright Reserved 2022. Rao Akif
     </div>
   );
-};
+}
 
-export default Header;
+export default Footer;
