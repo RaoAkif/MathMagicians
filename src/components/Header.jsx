@@ -16,7 +16,7 @@ const logoStyle = {
   fontWeight: 'bold',
 };
 
-const Header = function () {
+const Header = () => {
   return (
     <div style={headerStyle}>
       <div style={logoStyle}>Math Magicians</div>

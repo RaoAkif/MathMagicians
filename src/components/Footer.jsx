@@ -14,7 +14,7 @@ const footerStyle = {
   bottom: '0px',
 };
 
-const Header = function () {
+const Header = () => {
   return (
     <div style={footerStyle}>
       Copyright Reserved 2022. Rao Akif

@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Calculator from './components/Calculator';
 
-const App = function () {
+const App = () => {
   return (
     <BrowserRouter>
       <Header />
