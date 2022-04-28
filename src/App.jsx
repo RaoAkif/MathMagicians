@@ -8,15 +8,15 @@ import Footer from './components/Footer';
 import Calculator from './components/Calculator';
 
 const App = () => (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/quote" element={<Quote />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-  );
+  <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
+    <Footer />
+  </BrowserRouter>
+);
 
 export default App;
