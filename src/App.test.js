@@ -3,7 +3,6 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 import Calculator from './components/Calculator';
 import operate from './logic/operate';
-import Header from './components/Header';
 
 describe('App interaction', () => {
   it('renders the home page', () => {
