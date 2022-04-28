@@ -1,4 +1,4 @@
-import calculate from './calculate'
+import calculate from './calculate';
 
 describe('Calculate Function Test', () => {
   const Obj = { total: 2, next: 2, operation: '-' };
